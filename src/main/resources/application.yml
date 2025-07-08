@@ -1,0 +1,16 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "info,health"
+  info:
+    env:
+      enabled: true
+
+info:
+  app:
+    name: caching-proxy
+    version: 1.0
+    description: Caching Proxy using Spring Boot
+  author: codedbyced
+  environment: dev
